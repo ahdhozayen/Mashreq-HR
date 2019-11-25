@@ -97,6 +97,11 @@ DATABASES = {
    }
 }
 
+LOCALE_PATHS = (
+                os.path.join(BASE_DIR, 'locale'),
+)
+
+WSGI_APPLICATION = 'MashreqPayroll.wsgi.application'
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
