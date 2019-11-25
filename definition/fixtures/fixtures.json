@@ -1,0 +1,360 @@
+[{
+    "model": "definition.LookupType",
+    "pk": 1,
+    "fields": {
+      "lookup_type_name": "GENDER",
+      "lookup_type_description": "Gender Description",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 2,
+    "fields": {
+      "lookup_type_name": "DEPARTMENT_TYPE",
+      "lookup_type_description": "DEPARTMENT_TYPE",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 3,
+    "fields": {
+      "lookup_type_name": "IDENTITY_TYPE",
+      "lookup_type_description": "IDENTITY_TYPE",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 4,
+    "fields": {
+      "lookup_type_name": "SOCIAL_STATUS",
+      "lookup_type_description": "SOCIAL_STATUS",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 5,
+    "fields": {
+      "lookup_type_name": "RELIGION",
+      "lookup_type_description": "RELIGION",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 6,
+    "fields": {
+      "lookup_type_name": "MILITARY_STATUS",
+      "lookup_type_description": "MILITARY_STATUS",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 7,
+    "fields": {
+      "lookup_type_name": "EMPLOYEE_TYPE",
+      "lookup_type_description": "EMPLOYEE_TYPE",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupType",
+    "pk": 8,
+    "fields": {
+      "lookup_type_name": "LEAVE_TYPE",
+      "lookup_type_description": "LEAVE_TYPE",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 1,
+    "fields": {
+      "lookup_type_fk": 1,
+      "name": "Male",
+      "code": "male",
+      "description": "male",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 2,
+    "fields": {
+      "lookup_type_fk": 1,
+      "name": "Female",
+      "code": "female",
+      "description": "female",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 3,
+    "fields": {
+      "lookup_type_fk": 2,
+      "name": "Section",
+      "code": "Section",
+      "description": "Section",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 4,
+    "fields": {
+      "lookup_type_fk": 2,
+      "name": "Division",
+      "code": "Division",
+      "description": "Division",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 5,
+    "fields": {
+      "lookup_type_fk": 3,
+      "name": "National Id",
+      "code": "NA",
+      "description": "National Id",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 6,
+    "fields": {
+      "lookup_type_fk": 3,
+      "name": "Passport",
+      "code": "PA",
+      "description": "Passport",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 7,
+    "fields": {
+      "lookup_type_fk": 4,
+      "name": "Married",
+      "code": "MARRIED",
+      "description": "Married",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 8,
+    "fields": {
+      "lookup_type_fk": 4,
+      "name": "Single",
+      "code": "SINGLE",
+      "description": "Single",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 9,
+    "fields": {
+      "lookup_type_fk": 5,
+      "name": "Muslim",
+      "code": "MUSLIM",
+      "description": "Muslim",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 10,
+    "fields": {
+      "lookup_type_fk": 5,
+      "name": "Chrestin",
+      "code": "CHRESTIN",
+      "description": "Chrestin",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 11,
+    "fields": {
+      "lookup_type_fk": 6,
+      "name": "Exemption",
+      "code": "EXEMPTION",
+      "description": "Exemption",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 12,
+    "fields": {
+      "lookup_type_fk": 6,
+      "name": "Complete the service",
+      "code": "COMPLETE",
+      "description": "Complete the service",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 13,
+    "fields": {
+      "lookup_type_fk": 6,
+      "name": "Postponed",
+      "code": "POSTPON",
+      "description": "Postponed",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 14,
+    "fields": {
+      "lookup_type_fk": 7,
+      "name": "Contract",
+      "code": "CONTRACT",
+      "description": "Contract",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 15,
+    "fields": {
+      "lookup_type_fk": 7,
+      "name": "Permenant",
+      "code": "PERMENANT",
+      "description": "Permenant",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 16,
+    "fields": {
+      "lookup_type_fk": 8,
+      "name": "Casual leave",
+      "code": "CASUAL",
+      "description": "Casual leave",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  },
+  {
+    "model": "definition.LookupDet",
+    "pk": 17,
+    "fields": {
+      "lookup_type_fk": 8,
+      "name": "Casual leave",
+      "code": "CASUAL",
+      "description": "Casual leave",
+      "start_date": "2000-01-01",
+      "created_by": 1,
+      "creation_date": "2000-01-01",
+      "last_update_by": 1,
+      "last_update_date": "2000-01-01"
+    }
+  }
+]
