@@ -28,7 +28,7 @@ SECRET_KEY = 'el4vsi@4!@j7bh^eb6kf+v5&+-kmm6%%*=$egj)1^kewrmqyw2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://peoplem8.herokuapp.com/']
+ALLOWED_HOSTS = ['mashreq-hr.herokuapp.com']
 
 
 # Application definition
