@@ -140,9 +140,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-# to end the user session when closing the browser
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -158,3 +155,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Media files uploaded by user (images etc.)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
