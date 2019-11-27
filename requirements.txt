@@ -4,6 +4,7 @@ django-heroku==0.3.1
 django-reports-admin==1.0.4
 djangorestframework==3.10.3
 et-xmlfile==1.0.1
+gunicorn==20.0.4
 jdcal==1.4.1
 openpyxl==3.0.1
 Pillow==6.2.1
