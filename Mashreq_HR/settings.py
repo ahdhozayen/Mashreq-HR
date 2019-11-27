@@ -28,7 +28,7 @@ SECRET_KEY = 'el4vsi@4!@j7bh^eb6kf+v5&+-kmm6%%*=$egj)1^kewrmqyw2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://peoplem8.herokuapp.com/']
 
 
 # Application definition
@@ -75,9 +75,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Mashreq_HR.wsgi.application'
 
-import dj_database_url
-db_from_env = dj_database_url.config()
-DATABASES['default'].update(db_from_env)
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
@@ -100,6 +97,9 @@ DATABASES = {
    }
 }
 
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
