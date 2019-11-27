@@ -75,6 +75,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Mashreq_HR.wsgi.application'
 
+from decouple import config
+DATABASES = {
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL')
+    )
+}
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
